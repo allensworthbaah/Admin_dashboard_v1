@@ -101,17 +101,40 @@ a { color: inherit; }
   letter-spacing: 0.01em;
 }
 
-.brand-mark {
+
+.allensworth-app-header-brand {
+  display: inline-flex;
+  align-items: start;
+  justify-content: start;
+  width: 65px;
+  height: auto;
+}
+
+@media screen and (min-width: 769px)  {
+  .allensworth-app-header-brand {
+    display: inline-flex;
+    align-items: start;
+    justify-content: start;
+    width: 395px;
+    height: auto;
+  }
+}
+
+
+/* .small-logo { 
+  width: 65px;
+  height:auto;
+} */
+
+/* .brand-mark {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
-  border: 1px solid var(--line-strong);
-  border-radius: 3px;
-  font-size: 0.95rem;
-  color: var(--field-deep);
-}
+  width: 395px;
+  height: auto;
+} */
+
+
 
 .site-nav {
   display: flex;
@@ -143,6 +166,8 @@ a { color: inherit; }
   .site-nav { gap: 14px; font-size: 0.82rem; }
   .site-nav a:not(.nav-cta) { display: none; }
 }
+
+
 
 /* ===== Buttons ===== */
 .btn {

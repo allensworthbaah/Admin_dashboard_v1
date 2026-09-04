@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Allensworth OS mark</title>
+  <desc id="desc">Cream letter A in a green rounded square.</desc>
+  <defs>
+    <style>.letter{font-family:'Source Serif 4',Georgia,serif;font-weight:600}</style>
+  </defs>
+  <rect width="120" height="120" rx="12" fill="#45543A"/>
+  <text x="60" y="82" class="letter" font-size="62" fill="#F2ECE1" text-anchor="middle">A</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 90" role="img" aria-labelledby="title desc">
+  <title id="title">Allensworth OS</title>
+  <desc id="desc">Allensworth OS wordmark with green A monogram and gold OS.</desc>
+  <defs>
+    <style>
+      .letter,.brand{font-family:'Source Serif 4',Georgia,serif;font-weight:600}
+      .os{font-family:'IBM Plex Sans',system-ui,sans-serif;font-weight:500}
+    </style>
+  </defs>
+  <g transform="translate(24 20)">
+    <rect width="48" height="48" rx="6" fill="#45543A"/>
+    <text x="24" y="34" class="letter" font-size="25" fill="#F2ECE1" text-anchor="middle">A</text>
+    <text x="64" y="34" class="brand" font-size="27" fill="#1C1712">Allensworth <tspan class="os" fill="#C9A05C">OS</tspan></text>
+  </g>
+</svg>

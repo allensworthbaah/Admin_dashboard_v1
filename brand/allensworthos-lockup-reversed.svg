@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 104" role="img" aria-labelledby="title desc">
+  <title id="title">Allensworth OS</title>
+  <desc id="desc">Reversed Allensworth OS lockup for dark backgrounds, with a cream A, forest green botanical detail, cream wordmark, and gold OS.</desc>
+  <defs>
+    <style>
+      .mark-letter,.brand{font-family:'Source Serif 4',Georgia,'Times New Roman',serif;font-weight:600}
+      .os{font-family:'IBM Plex Sans',system-ui,'Segoe UI',sans-serif;font-weight:500}
+    </style>
+  </defs>
+
+  <!-- Monogram -->
+  <g transform="translate(14 11)">
+    <text x="38" y="68" class="mark-letter" font-size="74" fill="#F2ECE1" text-anchor="middle">A</text>
+
+    <!-- Botanical sprig -->
+    <path d="M27 65 C36 52 44 42 57 31" fill="none" stroke="#45543A" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M38 51 C31 45 31 38 36 33 C43 38 44 45 38 51Z" fill="#45543A"/>
+    <path d="M45 43 C48 35 54 31 62 32 C62 40 56 45 45 43Z" fill="#45543A"/>
+    <path d="M32 59 C25 56 22 50 24 44 C31 45 36 50 32 59Z" fill="#45543A"/>
+    <path d="M51 37 C54 30 59 26 67 27 C66 34 61 38 51 37Z" fill="#45543A" opacity=".88"/>
+  </g>
+
+  <!-- Divider -->
+  <line x1="92" y1="21" x2="92" y2="83" stroke="#F2ECE1" stroke-opacity=".75" stroke-width="1.5"/>
+
+  <!-- Wordmark -->
+  <text x="116" y="68" class="brand" font-size="46" fill="#F2ECE1">
+    Allensworth
+    <tspan class="os" dx="12" fill="#C9A05C">OS</tspan>
+  </text>
+</svg>

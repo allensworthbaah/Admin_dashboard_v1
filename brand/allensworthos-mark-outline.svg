@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Allensworth OS outline mark</title>
+  <desc id="desc">Green letter A in a softly outlined rounded square.</desc>
+  <defs>
+    <style>.letter{font-family:'Source Serif 4',Georgia,serif;font-weight:600}</style>
+  </defs>
+  <rect x="4" y="4" width="112" height="112" rx="10" fill="none" stroke="#1C1712" stroke-opacity=".45" stroke-width="3"/>
+  <text x="60" y="82" class="letter" font-size="62" fill="#45543A" text-anchor="middle">A</text>
+</svg>
