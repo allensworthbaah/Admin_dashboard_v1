@@ -164,7 +164,7 @@ a { color: inherit; }
 
 @media (max-width: 720px) {
   .site-nav { gap: 14px; font-size: 0.82rem; }
-  .site-nav a:not(.nav-cta) { display: none; }
+  .site-nav a:not(.nav-cta):not(.nav-login) { display: none; }
 }
 
 

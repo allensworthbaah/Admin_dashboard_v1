@@ -18,7 +18,9 @@
     <picture class="allensworth-app-header-brand">
       <!-- When the screen is 768px wide or smaller, show the mobile image -->
       <source class="small-logo" media="(max-width: 768px)" srcset="brand/allensworthos-mark-light.svg">
-
+      <!-- Image to load in Dark Mode
+      <source srcset="brand/allensworthos-mark-reversed.svg" media="(prefers-color-scheme: dark) and (max-width: 768px)">
+      <source srcset="brand/allensworthos-lockup-reversed.svg" media="(prefers-color-scheme: dark)"> -->
       <!-- Default image for larger screens (desktop) -->
       <img src="brand/allensworthos-lockup-light.svg" alt="Allensworth OS" class="large-logo">
     </picture>
@@ -26,6 +28,8 @@
       <a href="#workflow">The workflow</a>
       <a href="#for-whom">Built for</a>
       <a href="#principles">Principles</a>
+      <!-- Staging (synthetic data only) for now; point at the production app address once it exists. -->
+      <a href="https://staging.allensworthos.com" class="nav-login">Pilot login</a>
       <a href="#contact" class="nav-cta">Request a walkthrough</a>
     </nav>
   </div>
